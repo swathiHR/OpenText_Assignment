@@ -7,7 +7,7 @@ This program accepts company name through 3 ways i.e mentioned below:
 2.Through text file
 3.Console
 
-process followed to run in local:
+process needs to be followed to run in local:
 ->import the project to IDE
 ->Add jar file to build pah [For excel input, we have add apache poi jars through build path.I have tried with poi api 4.2.1 version(added jar file in git or u can download from this link as well: https://archive.apache.org/dist/poi/release/bin/)]
 ->the start executing as java application
