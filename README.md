@@ -9,13 +9,13 @@ This program accepts company name through 3 ways i.e mentioned below:
 
 process needs to be followed to run in local:
 ->import the project to IDE
-->Add jar file to build pah [For excel input, we have add apache poi jars through build path.I have tried with poi api 4.2.1 version(added jar file in git or u can download from this link as well: https://archive.apache.org/dist/poi/release/bin/)]
-->the start executing as java application
+->Add jar file to build pah [For excel input, we have to add apache poi jars through build path.I have tried with poi api 4.1.2 version(I have added jar file in git or you can download from this link as well: https://archive.apache.org/dist/poi/release/bin/)]
+->then start executing as java application
 
 Flow of the program:
 
 Company name through excel file :
-->Add .xlsx file which has data in it to dataFiles folder of the project.(To check negative flow by adding an empty .xlsx file)
+->Add .xlsx file  to dataFiles folder of the project.(Check negative flow by adding an empty .xlsx file)
 ->then update the file path in the program(update of file path requred here ->CompanyNameSortandSearch class->line number 29 (code line is : filePath = ".\\DataFiles\\companyName.xlsx";)
 
 execution process for excel part:
@@ -25,7 +25,7 @@ execution process for excel part:
 ->Then result will be displayed as per search criteria
 
 Company name through text file :
-->Add .txt file which has data in it to dataFiles folder of the project.(To check negative flow by adding an empty .txt file)
+->Add .txt file  dataFiles folder of the project.(Check negative flow by adding an empty .txt file)
 ->then update the file path in the program(update of file path requred here ->CompanyNameSortandSearch class->line number 35 (code line is : filePath = ".\\DataFiles\\companyName.txt";)
 
 execution process for text file part:
